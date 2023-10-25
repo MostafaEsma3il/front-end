@@ -14,13 +14,12 @@ body {
     text-align: center;
     padding: 40px 35px;
     margin: 100px auto 0px;
-    background: linear-gradient(135deg, rgb(86, 207, 162), rgb(103, 103, 152));
+    background: linear-gradient(0deg, rgb(86, 207, 162), rgb(198, 74, 74));
     color: #fff;
     width: 90%;
     max-width: 470px;
     border-radius: 20px;
 }
-
 .search-box {
     width: 100%;
     display: flex;
@@ -80,7 +79,7 @@ body {
 .col {
     display: flex;
     align-items: center;
-    text-align: left;
+    text-align: right;
 }
 
 .col img {
@@ -91,4 +90,17 @@ body {
 .humidity, .wind {
     font-size: 28px;
     margin-top: -7px;
+}
+
+.weather-info {
+    display: none;
+}
+
+.error {
+    color: rgb(238, 83, 83);
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 5px;
+    text-decoration: underline;
+    display: none;
 }
