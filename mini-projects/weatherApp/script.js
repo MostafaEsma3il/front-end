@@ -1,14 +1,3 @@
+const apiKey = 'da97322c5ae9ba4b9dae0ab5c53155cf';
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}';
 
-function fn(x) {
-    return x * x - 4 * x + 5;
-}
-
-console.log("-------")
-for (i = 0; i <= 5; i++) {
-    if (i != 5)
-        console.log('|' + i+ ' |'+ fn(i) + ' |');
-    else 
-        console.log('|' + i+ ' |'+ fn(i) + '|');
-
-}
-console.log("-------")
